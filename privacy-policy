@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Skeep</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;line-height:1.6;color:#222;background:#f7f9fb;padding:24px}
+    .container{max-width:900px;margin:28px auto;background:#fff;border-radius:10px;padding:28px 32px;box-shadow:0 8px 24px rgba(15,23,42,0.06)}
+    h1,h2,h3{color:#0b2545;margin-top:20px}
+    p{margin:12px 0}
+    code{background:#f1f5f9;padding:2px 6px;border-radius:4px}
+    ul{margin-left:18px}
+    .small{font-size:0.92rem;color:#555}
+    footer{margin-top:28px;font-size:0.9rem;color:#555}
+    .notice{background:#eef6ff;border-left:4px solid #2b8cff;padding:10px;border-radius:6px;margin:16px 0}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Policy for Skeep</h1>
+    <p class="small">Effective date: <strong>January 1, 2026</strong></p>
+
+    <p>Solutie Limited ("we", "us", "Skeep") provides the Skeep mobile application (the "App"), an accessibility utility that helps users skip repetitive UI prompts (for example, "Skip Ad", "Next"). This Privacy Policy explains what information we collect, how we use it, how we store it, and your choices.</p>
+
+    <h2>1. Information we collect</h2>
+
+    <h3>a) Information you provide directly</h3>
+    <ul>
+      <li><strong>Purchase tokens:</strong> When you make an in-app purchase we send the Google Play purchase token to our server so we can verify the purchase with Google Play. We do <em>not</em> store raw payment card details — Google handles payment processing.</li>
+      <li><strong>Device identifier:</strong> We may record a generated device identifier (Android ID) to tie a purchase or unlock to a specific device and to enable restore/unlock functionality.</li>
+      <li><strong>Support information:</strong> If you contact support you may provide an email address and description of the issue.</li>
+    </ul>
+
+    <h3>b) Automatically collected information</h3>
+    <ul>
+      <li><strong>Usage counters:</strong> We track how many automatic "skips" the app has performed (a simple counter) so we can enforce the trial (100 free uses) and display statistics such as "clicks saved" or "time saved".</li>
+      <li><strong>App selection & patterns:</strong> The list of apps you select for automatic skipping, and the skip words/patterns you configure, are stored locally on your device to enable the feature.</li>
+    </ul>
+
+    <h2>2. How we use the information</h2>
+    <ul>
+      <li><strong>Purchase verification & restore:</strong> Verify purchase tokens with Google Play (server-side) and acknowledge purchases; let users restore purchases on new devices.</li>
+      <li><strong>Feature enablement:</strong> Enforce trial limits (100 free uses) and unlock the app after a verified purchase.</li>
+      <li><strong>UX & statistics:</strong> Display "clicks saved" / "time saved" statistics to users.</li>
+      <li><strong>Support & debugging:</strong> Diagnose app issues if you choose to share logs/support info.</li>
+    </ul>
+
+    <h2>3. Legal basis & sharing</h2>
+    <p>We share purchase tokens only with Google Play (via the Play Developer API) for verification. We may share minimal information with hosting providers and payment processors as required for service operation. We do not sell personal information.</p>
+
+    <h2>4. Data retention & deletion</h2>
+    <p><strong>Server-side:</strong> Purchase records and unlocks are stored as long as needed to support restores and fraud prevention. Raw purchase tokens are not stored in plain text; tokens are stored hashed (SHA-256) where persistent storage is required.</p>
+    <p><strong>Local device:</strong> Usage counts, selected apps, and patterns are stored locally using Android's EncryptedSharedPreferences; users can uninstall the app to remove local data or request deletion via the contact address below.</p>
+
+    <h2>5. Security</h2>
+    <p>Local sensitive data is protected using Android's encrypted storage (KeyStore-backed). Server-side secrets (for example service account keys) are stored securely on the server and never embedded in the app. All client–server communication uses HTTPS/TLS.</p>
+
+    <h2>6. Third-party services</h2>
+    <p>Skeep uses Google Play Billing for purchases and the Google Play Developer API for server-side verification. We may use third-party hosting or analytics providers; where used we require contractual protections to safeguard user data.</p>
+
+    <h2>7. Children</h2>
+    <p>The App is not designed for children under 13. If you are under 13, do not use the App without parent/guardian permission.</p>
+
+    <h2>8. Your rights & choices</h2>
+    <ul>
+      <li>You may request deletion of personal data or ask questions by emailing <a href="mailto:privacy@solutie.net">privacy@solutie.net</a>. We will respond in accordance with applicable law.</li>
+      <li>You can uninstall the App to remove local data; server data can be deleted on request.</li>
+    </ul>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this policy from time to time. When we do we'll update the Effective Date at the top of the page. For material changes we will try to notify users via the App or the Play listing where feasible.</p>
+
+    <h2>10. Contact</h2>
+    <p>Solutie Limited<br>
+      Email: <a href="mailto:privacy@solutie.net">privacy@solutie.net</a><br>
+      Website: <a href="https://skeep.solutie.net">https://skeep.solutie.net</a>
+    </p>
+
+    <footer class="small">
+      <div class="notice">
+        <strong>Note:</strong> Before publishing, replace the company name, contact email, website and effective date with your official details.
+      </div>
+      <p>Last updated: January 1, 2026</p>
+    </footer>
+  </div>
+</body>
+</html>
